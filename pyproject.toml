@@ -94,3 +94,5 @@ major_version_zero = true
 version_files = [
     "xiaomusic/__init__.py",
 ]
+[tool.vercel]
+entrypoint = "xiaomusic.api:app"
